@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --loader ts-node/esm src/cli/index.ts",
+    "reqrun": "node dist/cli/index.js",
     "build": "tsc"
   },
   "keywords": [],
