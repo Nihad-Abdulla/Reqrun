@@ -1,14 +1,10 @@
 import axios from "axios";
-import type { RequestConfig } from "./requestBuilder.js";
-
-
-export async function executeRequest(config: RequestConfig) {
+export async function executeRequest(config) {
     const start = Date.now();
     try {
-
         const response = await axios({
             url: config.url,
-            method: config.method as any,
+            method: config.method,
             headers: config.headers,
             data: config.data
         });
@@ -18,9 +14,9 @@ export async function executeRequest(config: RequestConfig) {
             status: response.status,
             data: response.data,
             duration
-
-        }
-    } catch (error: any) {
+        };
+    }
+    catch (error) {
         const duration = Date.now() - start;
         return {
             success: false,
@@ -30,5 +26,5 @@ export async function executeRequest(config: RequestConfig) {
             error: error.message
         };
     }
-
 }
+//# sourceMappingURL=executor.js.map

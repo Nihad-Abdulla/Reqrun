@@ -1,0 +1,1 @@
+{"version":3,"file":"requestBuilder.d.ts","sourceRoot":"","sources":["../../src/core/requestBuilder.ts"],"names":[],"mappings":"AACA,MAAM,WAAW,aAAa;IAC1B,GAAG,EAAE,MAAM,CAAC;IACZ,MAAM,EAAE,MAAM,CAAC;IACf,OAAO,EAAE,MAAM,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;IAChC,IAAI,CAAC,EAAE,GAAG,CAAC;CACd;AAED,wBAAgB,YAAY,CACxB,GAAG,EAAE,MAAM,EACX,MAAM,EAAE,MAAM,EACd,OAAO,EAAE,GAAG,GACb,aAAa,CAgBf"}
